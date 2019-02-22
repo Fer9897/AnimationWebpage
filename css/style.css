@@ -1,0 +1,420 @@
+.color-rojo{
+	position: absolute;
+	width: 100%;
+	background-color: #e10b17;
+	height: 50px;
+	padding-bottom: 50px;
+}
+#navigation{
+}
+.navbar-fixed-top{
+	top: 20px;
+	position: fixed;
+}
+body{
+
+}
+.jumbotron {
+
+}
+#bg{
+	background-image: url(background.jpg);
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+}
+#bgVideo{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -10;
+	transform: translateX(-50%) translateY(-50%);
+}
+#videoHolder{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 85%;
+}
+div{
+
+}
+header{
+	position: relative;
+}
+#Intro{
+	top: 0;
+	bottom: 10px;
+	position: absolute;
+	background-color: #e10b17;
+	height: 30px;
+	width: 100%;
+}
+.opacidad{
+	opacity: 0.70;
+	transition: opacity .5s;
+}
+.opacidad:hover{
+	opacity: 1;
+}
+.oswaldBold{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.oswaldNormal{
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	color: #575756;
+	font-size: 10pt;
+}
+#manoimg{
+	position: absolute;
+	width: 3%;
+	height: 24%;
+	right: 1%;
+	z-index: -5;
+}
+#mano2img{
+	position: absolute;
+	width: 14%;
+	height: 34%;
+	left: 80%;
+	z-index: -5;
+}
+#redesimg{
+	position: absolute;
+	width: 7%;
+	height: 70%;
+	left: 93%;
+	z-index: -5;
+}
+#instaimg{
+	position: absolute;
+	width: 30pt;
+	height: 30pt;
+	left: 96.8%;
+	top: 38%;
+}
+#ytimg{
+	position: absolute;
+	width: 30pt;
+	height: 30pt;
+	left: 96.8%;
+	top: 44%;
+}
+#faceimg{
+	position: absolute;
+	width: 30pt;
+	height: 30pt;
+	left: 96.8%;
+	top: 50%;
+}
+#webimg{
+	position: absolute;
+	width: 70%;
+	height: 130%;
+	bottom: 10%;
+}
+#menu0{
+	top: 100px;
+	float: left;
+	position: absolute;
+	background-color: #e10b17;
+	height: 40%;
+	width: 21%;
+}
+#logo{
+	
+}
+#cotizacion{
+	position: absolute;
+	right: 58%;
+	border: 0;
+	border-radius: 5px;
+	padding: 0 15px;
+	color: white;
+	background-color: #3C3C3B;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+#infoBtn{
+	position: relative;
+	border-radius: 8px;
+	color: white;
+	background-color: #E10B17;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20pt;
+	padding: 12px 14px 12px 14px;
+	border: #E10B17;
+}
+#cotDialogo{
+	position: relative;
+	background-color: #3C3C3B;
+	z-index: 2;
+	width: 80%;
+	height: 550px;
+	border-radius: 30px;
+}
+#textoAnim2d{
+	position: absolute;
+	z-index: -1;
+	bottom: 30%;
+}
+.dialogoForms{
+	position: relative;
+	width: 95%;
+	left: 2.5%;
+}
+.dialogoLabel{
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	left: 2.5%;
+}
+#closeIcon{
+	position: relative;
+	color: white;
+	float: right;
+	right: 2.5%;
+	top: 1%;
+	font-size: 130%;
+}
+#enviarForm{
+	position: relative;
+	float: right;
+	border: 0;
+	right: 4%;
+	bottom: 2%;
+	color: white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	background-color: #E10B17;
+}
+#carouselEquipo{
+	position: relative;
+	margin-bottom: 4rem;
+	width: 100%;
+}
+.titulos{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.carousel-control-next-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.divNombre{
+	position: relative;
+	background-color: #E10B17;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 0px 10px 0px 0px;
+	width: 70%;
+	height: 35px;
+	top: 1%;
+}
+.divPerfil{
+	position: relative;
+	background-color: #3C3C3B;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 0px 10px 0px 0px;
+	width: 80%;
+	height: 60px;
+	top: 1.5%;
+}
+.spanEspacio{
+	position: relative;
+	float: left;
+	left: 5%;
+}
+.areasTipo{
+	position: relative;
+	width: 20%;
+	height: 80%;
+}
+#areaAnimacion{
+	position: inherit;
+	width: 25%;
+	height: 60%;
+	background-color: #3C3C3B;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	top: 70%;
+	left: 3%;
+}
+#areaAppweb{
+	position: inherit;
+	width: 25%;
+	height: 60%;
+	background-color: #E10B17;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	top: 100%;
+	left: 3%;
+}
+#areaPublicidad{
+	position: inherit;
+	width: 25%;
+	height: 60%;
+	background-color: #C6C6C5;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	top: 130%;
+	left: 3%;
+}
+.spanAreas{
+	position: inherit;
+	top: 25%;
+}
+#leftArrowCtl{
+	position: relative;
+	width: 91px;
+	height: 152px;
+	font-size: 150px;
+	color: #E10B17;
+}
+#leftAicon{
+	position: inherit;
+	bottom: 25%;
+}
+#tarjA{
+	position: relative;
+	background-color: #3C3C3B;
+	color: white;
+	font-size: 75%;
+	float: right;
+	width: 18.3%;
+	height: 85%;
+	bottom: 0px;
+	right: 0.5%;
+	border: 10px;
+	border-radius: 13px;
+}
+#tablaContenido{
+	width: 100%;
+}
+#curso{
+	float: left;
+}
+#titulo{
+	color: #FFEC00;
+}
+#fecha{
+	float: left;
+	bottom: 50%;
+}
+#fechaN{
+
+}
+#instructor{
+	float: right;
+}
+#info{
+	float: right;
+	color: #FFEC00;
+	
+}
+#tarjB{
+	position: relative;
+	background-color: #E10B17;
+	float: right;
+	width: 10%;
+	height: 20%;
+	bottom: 0px;
+	right: 0px;
+}
+
+#dropdownMenuButton{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+#listaDrop{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	font-family: 'Oswald', sans-serif;
+}
+.colorBotones{
+	color: white;
+}
+.colorBotones:hover{
+	color: #FCEE21;
+}
+.colorFondo:hover{
+	background-color: #e10b17;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #6F6F6E;
+	text-align: center;
+}
+.dropdown-menu{
+	background-color: white;
+}
+.dropdown-item:hover{
+	color: #E10B17;
+}
+#anim{
+	width: 320px;
+	margin-left: -2px;
+}
+#appWeb{
+	width: 320px;
+	left:50%;
+	margin-left:-78px;
+}
+#publ{
+	width: 320px;
+	margin-left: -2px;
+}
+.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: pointer;
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}

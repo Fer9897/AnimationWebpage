@@ -1,0 +1,388 @@
+.color-rojo{
+	position: absolute;
+	width: 100%;
+	background-color: #e10b17;
+	height: 50px;
+	padding-bottom: 50px;
+}
+#navigation{
+}
+.navbar-fixed-top{
+	top: 20px;
+	position: fixed;
+}
+body{
+
+}
+.jumbotron {
+
+}
+#bg{
+	background-image: url(background.jpg);
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+}
+div{
+
+}
+header{
+	position: relative;
+}
+#Intro{
+	top: 0;
+	bottom: 10px;
+	position: absolute;
+	background-color: #e10b17;
+	height: 30px;
+	width: 100%;
+}
+#menu0{
+	top: 100px;
+	float: left;
+	position: absolute;
+	background-color: #e10b17;
+	height: 40%;
+	width: 21%;
+}
+#logo{
+	
+}
+#cotizacion{
+	position: absolute;
+	right: 58%;
+	border: 0;
+	border-radius: 5px;
+	padding: 0 15px;
+	color: white;
+	background-color: #3C3C3B;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+#cotDialogo{
+	position: relative;
+	background-color: #3C3C3B;
+	z-index: 2;
+	width: 80%;
+	height: 100%;
+	border-radius: 30px;
+}
+#textoAnim2d{
+	position: absolute;
+	z-index: -1;
+	bottom: 30%;
+}
+.dialogoForms{
+	position: relative;
+	width: 95%;
+	left: 2.5%;
+}
+.dialogoLabel{
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	left: 2.5%;
+}
+#closeIcon{
+	position: relative;
+	color: white;
+	float: right;
+	right: 2.5%;
+	top: 1%;
+	font-size: 130%;
+}
+#enviarForm{
+	position: relative;
+	float: right;
+	border: 0;
+	right: 4%;
+	bottom: 2%;
+	color: white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	background-color: #E10B17;
+}
+#carouselEquipo{
+	position: relative;
+	margin-bottom: 4rem;
+	width: 100%;
+}
+.titulos{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.carousel-control-next-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.divNombre{
+	position: relative;
+	background-color: #E10B17;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 0px 10px 0px 0px;
+	width: 70%;
+	height: 35px;
+	top: 1%;
+}
+.divPerfil{
+	position: relative;
+	background-color: #3C3C3B;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 0px 10px 0px 0px;
+	width: 80%;
+	height: 60px;
+	top: 1.5%;
+}
+.spanEspacio{
+	position: relative;
+	float: left;
+	left: 5%;
+}
+.areasTipo{
+	position: relative;
+	width: 20%;
+	height: 80%;
+}
+#areaAnimacion{
+	position: inherit;
+	width: 75%;
+	height: 20%;
+	background-color: #3C3C3B;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+}
+#areaAppweb{
+	position: inherit;
+	width: 75%;
+	height: 20%;
+	background-color: #E10B17;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+}
+#areaPublicidad{
+	position: inherit;
+	width: 75%;
+	height: 20%;
+	background-color: #C6C6C5;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+}
+.spanAreas{
+	position: inherit;
+	top: 22%;
+}
+.carousel{
+    width: 100%;
+    height: 70%;
+}
+.row.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+#leftArrowCtl{
+	position: relative;
+	width: 91px;
+	height: 152px;
+	font-size: 150px;
+	color: #E10B17;
+}
+#leftAicon{
+	position: inherit;
+	bottom: 25%;
+}
+#rightArrowCtl{
+    position: relative;
+    width: 91px;
+    height: 152px;
+    font-size: 150px;
+    color: #E10B17;
+}
+#rightAicon{
+    position: inherit;
+    bottom: 25%;
+}
+.infoClienteAn{
+    position: relative;
+    width: 95%;
+	height: 90%;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+    border-color: #6F6F6E;
+    border-radius: 15px;
+}
+.infoClienteApp{
+    position: relative;
+    width: 95%;
+	height: 90%;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+    border-color: #E10B17;
+    border-radius: 15px;
+}
+.infoClientePub{
+    position: relative;
+    width: 95%;
+	height: 90%;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+    border-color: #C6C6C5;
+    border-radius: 15px;
+}
+.animacionVacio{
+    position: relative;
+    width: 95%;
+    height: 90%;
+    background-color: #6F6F6E;
+    border-radius: 15px;
+}
+.appVacio{
+	position: relative;
+	width: 95%;
+	height: 90%;
+	background-color: #E10B17;
+	border-radius: 15px;
+}
+#tarjA{
+	position: relative;
+	background-color: #3C3C3B;
+	color: white;
+	font-size: 75%;
+	float: right;
+	width: 18.3%;
+	height: 85%;
+	bottom: 0px;
+	right: 0.5%;
+	border: 10px;
+	border-radius: 13px;
+}
+#tablaContenido{
+	width: 100%;
+}
+#curso{
+	float: left;
+}
+#titulo{
+	color: #FFEC00;
+}
+#fecha{
+	float: left;
+	bottom: 50%;
+}
+#fechaN{
+
+}
+#instructor{
+	float: right;
+}
+#info{
+	float: right;
+	color: #FFEC00;
+	
+}
+#tarjB{
+	position: relative;
+	background-color: #E10B17;
+	float: right;
+	width: 10%;
+	height: 20%;
+	bottom: 0px;
+	right: 0px;
+}
+
+#dropdownMenuButton{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+#listaDrop{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	font-family: 'Oswald', sans-serif;
+}
+.colorBotones{
+	color: white;
+}
+.colorBotones:hover{
+	color: #FCEE21;
+}
+.colorFondo:hover{
+	background-color: #e10b17;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #6F6F6E;
+	text-align: center;
+}
+.dropdown-menu{
+	background-color: white;
+}
+.dropdown-item:hover{
+	color: #E10B17;
+}
+#anim{
+	width: 320px;
+	margin-left: -2px;
+}
+#appWeb{
+	width: 320px;
+	left:50%;
+	margin-left:-78px;
+}
+#publ{
+	width: 320px;
+	margin-left: -2px;
+}
+.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: pointer;
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
