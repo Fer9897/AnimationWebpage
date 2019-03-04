@@ -7,7 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-dropdownhover.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Animation Studio - Contacto</title>
     </head>
@@ -31,16 +32,16 @@
                         <a class="nav-link" href="Nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active colorFondo">
-                        <a class="nav-link" href="#">Clientes<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="Clientes.html">Clientes<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active colorFondo">
                         <a class="nav-link" href="#">Capsulas</a>
                     </li>
                     <li class="nav-item active colorFondo">
-                        <a class="nav-link" href="#">Cursos</a>
+                        <a class="nav-link" href="Cursos.html">Cursos</a>
                     </li>
                     <li class="nav-item active colorFondo">
-                        <a class="nav-link" href="">Contacto</a>
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
                     </li>
                        
                     </ul>
@@ -87,14 +88,18 @@
                             <i class="fas fa-envelope" style="font-size: 18px; color: #E10B17;"></i><span class="oswaldNormal"> contacto@animationstudio.com.mx</span>
                             <i class="fas fa-map-marker-alt" style="font-size: 18px; color: #E10B17;"></i><span class="oswaldNormal"> Luis de Velasco 735 Col.Virreyes</span>
                         </div>
+                        <div class="col">
+                            <div id="mapdiv" style="height:120px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+        <script src="js/mapa.js"></script>
 		<script src="js/contacto.js"></script>
-		<script src="js/dropdown-bootstrap4.js"></script>
     </body>
 </html>

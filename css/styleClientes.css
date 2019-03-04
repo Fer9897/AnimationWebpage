@@ -216,6 +216,56 @@ header{
     position: inherit;
     bottom: 25%;
 }
+.text{
+	color: white;
+	font-size: 13px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.overlayAn{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #3C3C3B;
+	border-radius: 14px;
+}
+.overlayApw{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #E10B17;
+	border-radius: 14px;
+}
+.overlayPub{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #E10B17;
+	border-radius: 14px;
+}
 .infoClienteAn{
     position: relative;
     width: 95%;
@@ -225,18 +275,8 @@ header{
     border-color: #6F6F6E;
 	border-radius: 15px;
 }
-.infoClienteAnDiv{
-    position: relative;
-    width: 95%;
-	height: 90%;
-	border-style: solid;
-	border-width: 2px;
-    border-color: #6F6F6E;
-	border-radius: 15px;
-	display: none;
-}
-.infoClienteAn:hover .infoClienteAnDiv{
-	display: block;
+.infoClienteAn:hover .overlayAn{
+	opacity: 1;
 }
 .infoClienteApp{
     position: relative;
@@ -248,6 +288,9 @@ header{
 	border-width: 2px;
     border-color: #E10B17;
     border-radius: 15px;
+}
+.infoClienteApp:hover .overlayApw{
+	opacity: 1;
 }
 .infoClientePub{
     position: relative;
