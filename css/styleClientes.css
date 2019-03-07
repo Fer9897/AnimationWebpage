@@ -5,17 +5,9 @@
 	height: 50px;
 	padding-bottom: 50px;
 }
-#navigation{
-}
 .navbar-fixed-top{
 	top: 20px;
 	position: fixed;
-}
-body{
-
-}
-.jumbotron {
-
 }
 #bg{
 	background-image: url(background.jpg);
@@ -23,9 +15,6 @@ body{
  	background-position: center;
  	background-repeat: no-repeat;
  	background-size: 100%;
-}
-div{
-
 }
 header{
 	position: relative;
@@ -45,9 +34,6 @@ header{
 	background-color: #e10b17;
 	height: 40%;
 	width: 21%;
-}
-#logo{
-	
 }
 #cotizacion{
 	position: absolute;
@@ -306,6 +292,10 @@ header{
 .infoClientePub:hover .overlayPub{
 	opacity: 1;
 }
+.oswaldLight{
+	font-weight: 200;
+	color: white;
+}
 .animacionVacio{
     position: relative;
     width: 95%;
@@ -319,19 +309,6 @@ header{
 	height: 90%;
 	background-color: #E10B17;
 	border-radius: 15px;
-}
-#tarjA{
-	position: relative;
-	background-color: #3C3C3B;
-	color: white;
-	font-size: 75%;
-	float: right;
-	width: 18.3%;
-	height: 85%;
-	bottom: 0px;
-	right: 0.5%;
-	border: 10px;
-	border-radius: 13px;
 }
 #tablaContenido{
 	width: 100%;
