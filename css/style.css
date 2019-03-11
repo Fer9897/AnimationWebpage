@@ -202,6 +202,28 @@ header{
 	margin-bottom: 4rem;
 	width: 100%;
 }
+#leftArrowCtl{
+	position: relative;
+	width: 91px;
+	height: 152px;
+	font-size: 150px;
+	color: #E10B17;
+}
+#rightArrowCtl{
+    position: relative;
+    width: 91px;
+    height: 152px;
+    font-size: 150px;
+    color: #E10B17;
+}
+#leftAicon{
+	position: relative;
+	bottom: 25%;
+}
+#rightAicon{
+    position: relative;
+    bottom: 25%;
+}
 .titulos{
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
